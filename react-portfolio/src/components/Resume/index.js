@@ -6,19 +6,14 @@ function Resume() {
         <>
             <div class="container section-padding-80 clearfix">
                 <h1 class="display-4">Resume</h1>
-                <p class="lead">kevindyatsinko@gmail.com / 6153064951 / 120 Providence Trail, Mount Juliet, Tn</p>
-                <hr />
-                <h3 class="display-5">Summary</h3>
-                <p class="lead">Full Stack Web Developer with a background in Music Production and life-long dedication to learning. Effective at
-                    combining creativity and problem solving to develop user-friendly applications. Known among staff for strong wit and
-                    attention to detail no matter the complexity of the project.</p>
+                <h6 class="lead">kevindyatsinko@gmail.com / (615)306-4951 / Mount Juliet, Tn</h6>
                 <hr />
                 <h3>Skills</h3>
-                <p class="lead">
+                <h6 class="lead">
                     JavaScript - HTML5 - Node.js
                     - Bootstrap -  MongoDB - Handlebars.js
                     - React - Express.js - GraphQL
-                </p>
+                </h6>
                 <hr />
                 <h3>Experience</h3>
                 <h6 class="lead">Web Developer Intern</h6>
