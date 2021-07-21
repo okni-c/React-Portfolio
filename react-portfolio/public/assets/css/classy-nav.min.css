@@ -647,13 +647,13 @@ img {
     .classynav ul li .megamenu .single-mega.cn-col-3, .classynav ul li .megamenu .single-mega.cn-col-4, .classynav ul li .megamenu .single-mega.cn-col-5 {
         width: 100%;
         border-right: none;
-        border-bottom: 1px solid #f2f4f8
+        border-bottom: 1px solid black
     }
     .cn-dropdown-item.has-down.pr12, .megamenu-item.pr12 {
         padding-right: 0!important
     }
     .classynav>ul>li>a {
-        background-color: #f2f4f8;
+        background-color: #5ccaf6;
         border-bottom: 1px solid rgba(255, 255, 255, .5)
     }
     .classynav>ul>li.cn-dropdown-item.has-down>.dd-arrow, .classynav>ul>li.megamenu-item>.dd-arrow {
@@ -673,7 +673,7 @@ img {
 }
 
 .breakpoint-on .classy-navbar .classy-menu {
-    background-color: #fff;
+    background-color: #5ccaf6;
     position: fixed;
     top: 0;
     left: -310px;
