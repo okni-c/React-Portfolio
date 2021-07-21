@@ -46,7 +46,7 @@ a {
   transition: all 500ms ease 0s;
   text-decoration: none;
   outline: 0 solid transparent;
-  color: #707070;
+  color: #ffffff;
   font-weight: 600;
   font-size: 12px; }
   a:hover, a:focus {
@@ -233,12 +233,12 @@ img {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 50px;
-  background-color: #16ABEE;
+  background-color: #fb0047;
   letter-spacing: 1.5px;
   font-weight: 600; }
   .rich-btn:hover, .rich-btn:focus {
     color: #ffffff;
-    background-color: #ff084e; }
+    background-color: #ad0031; }
 
 /* :: 4.0 Header Area CSS */
 .header_area {
@@ -644,7 +644,7 @@ img {
       height: 750px; } }
   .welcome_area .hero-content h6 {
     font-size: 18px;
-    color: #787878;
+    color: #ffffff;
     margin-bottom: 10px; }
   .welcome_area .hero-content h2 {
     font-size: 60px;
