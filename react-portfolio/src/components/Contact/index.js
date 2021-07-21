@@ -29,12 +29,10 @@ function Contact() {
                         <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message here..."></textarea>
                     </div>
+                    <button class="btn btn-dark">Submit Message</button>
                 </div>
             </section>
-            <div class="container">
-
-
-            </div>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </>
     );
 }
