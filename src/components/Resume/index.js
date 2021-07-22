@@ -5,6 +5,7 @@ function Resume() {
     return (
         <>
             <div class="container section-padding-80 clearfix">
+                <a href="./assets/resume/Resume - Kevin Yatsinko.pdf" download><p class="lead text-center">Click here to download my resume!</p></a>
                 <h1 class="display-4">Resume</h1>
                 <h6 class="lead">kevindyatsinko@gmail.com / (615)306-4951 / Mount Juliet, Tn</h6>
                 <hr />
