@@ -1,7 +1,20 @@
 import React from 'react';
-import Nav from '../Nav';
+import Navi from '../Nav';
 
-function Header() {
+function Header(props) {
+
+    const {
+        isHero,
+        setHero,
+        isAboutMe,
+        setAboutMe,
+        isProject,
+        setProject,
+        isResume,
+        setResume,
+        isContact,
+        setContact
+    } = props;
 
     return (
         <>
@@ -14,7 +27,17 @@ function Header() {
                 </div>
 
                 <div class="classy-menu">
-                    <Nav />
+                    <Navi
+                        isHero={isHero}
+                        setHero={setHero}
+                        isAboutMe={isAboutMe}
+                        setAboutMe={setAboutMe}
+                        isProject={isProject}
+                        setProject={setProject}
+                        isResume={isResume}
+                        setResume={setResume}
+                        isContact={isContact}
+                        setContact={setContact} />
                 </div>
             </nav>
         </>

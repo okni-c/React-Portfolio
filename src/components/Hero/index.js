@@ -1,6 +1,10 @@
 import React from 'react';
 
-function Hero() {
+function Hero(props) {
+    const {
+        setHero,
+        setProject
+    } = props;
 
     return (
         <>
@@ -11,7 +15,10 @@ function Hero() {
                             <div class="hero-content">
                                 <h6>Hey there,</h6>
                                 <h2>Welcome to my React Portfolio!</h2>
-                                <a href="/projects" class="btn rich-btn">view projects</a>
+                                <a eventKey="aboutme" onClick={() => {
+                                    setHero(false);
+                                    setProject(true);
+                                }}><div class="btn rich-btn">view projects</div></a>
                             </div>
                         </div>
                     </div>
