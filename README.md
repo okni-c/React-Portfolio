@@ -33,7 +33,7 @@ npm start
 ![Application Example Photo](/public/assets/img/example.png)
 
 - Click this link to view the application live on Heroku!
-[React Portfolio](https://hidden-chamber-95247.herokuapp.com/)
+[React Portfolio](https://kevindyatsinko.herokuapp.com/)
 
 ## Usage
 
