@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Project from './components/Project';
@@ -7,29 +7,48 @@ import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
 import Hero from './components/Hero';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
 import './App.css';
 
 function App() {
+
+  const [isHero, setHero] = useState(true);
+  const [isAboutMe, setAboutMe] = useState(false);
+  const [isProject, setProject] = useState(false);
+  const [isResume, setResume] = useState(false);
+  const [isContact, setContact] = useState(false);
+
   return (
-    <Router>
       <div className="MainDiv">
 
-        <Header />
+        <Header
+        isHero={isHero}
+        setHero={setHero}
+        isAboutMe={isAboutMe}
+        setAboutMe={setAboutMe}
+        isProject={isProject}
+        setProject={setProject}
+        isResume={isResume}
+        setResume={setResume}
+        isContact={isContact}
+        setContact={setContact} />
 
-        <Switch>
-          <Route exact path="/" component={Hero} />
-          <Route exact path="/projects" component={Project} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/aboutme" component={AboutMe} />
-          <Route exact path="/resume" component={Resume} />
-        </Switch>
+        <main>
+        {isHero && 
+        <Hero 
+        isHero={isHero}
+        setHero={setHero}
+        isProject={isProject}
+        setProject={setProject}/>}
+
+        {isAboutMe &&  <AboutMe></AboutMe>}
+        {isContact &&  <Contact />}
+        {isProject && <Project />}
+        {isResume && <Resume />}
+        </main>
 
         <Footer />
 
       </div>
-    </Router>
   );
 }
 
